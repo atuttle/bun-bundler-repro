@@ -1,0 +1,15 @@
+{
+	"name": "bun-bundle-repro",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "bun build index.js --target browser --outdir ./dist"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"moment": "^2.29.4"
+	}
+}
